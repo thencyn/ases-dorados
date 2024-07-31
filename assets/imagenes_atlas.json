@@ -4,30 +4,30 @@
 			"image": "imagenes_atlas.png",
 			"format": "RGBA8888",
 			"size": {
-				"w": 1009,
-				"h": 1288
+				"w": 1743,
+				"h": 907
 			},
 			"scale": 1,
 			"frames": [
 				{
-					"filename": "caja-apuesta",
+					"filename": "caja-premio",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
-						"w": 500,
-						"h": 96
+						"w": 1045,
+						"h": 394
 					},
 					"spriteSourceSize": {
 						"x": 0,
 						"y": 0,
-						"w": 500,
-						"h": 96
+						"w": 1045,
+						"h": 394
 					},
 					"frame": {
 						"x": 1,
 						"y": 1,
-						"w": 500,
-						"h": 96
+						"w": 1045,
+						"h": 394
 					}
 				},
 				{
@@ -45,31 +45,31 @@
 						"h": 500
 					},
 					"frame": {
-						"x": 503,
-						"y": 1,
+						"x": 1,
+						"y": 397,
 						"w": 489,
 						"h": 500
 					}
 				},
 				{
-					"filename": "rain",
+					"filename": "caja-tabla-premios",
 					"rotated": false,
-					"trimmed": true,
+					"trimmed": false,
 					"sourceSize": {
-						"w": 17,
-						"h": 17
+						"w": 360,
+						"h": 496
 					},
 					"spriteSourceSize": {
-						"x": 2,
-						"y": 3,
-						"w": 14,
-						"h": 14
+						"x": 0,
+						"y": 0,
+						"w": 360,
+						"h": 496
 					},
 					"frame": {
-						"x": 994,
-						"y": 1,
-						"w": 14,
-						"h": 14
+						"x": 492,
+						"y": 397,
+						"w": 360,
+						"h": 496
 					}
 				},
 				{
@@ -87,115 +87,283 @@
 						"h": 346
 					},
 					"frame": {
-						"x": 1,
-						"y": 99,
+						"x": 1048,
+						"y": 1,
 						"w": 380,
 						"h": 346
 					}
 				},
 				{
-					"filename": "star-1",
+					"filename": "luz",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
-						"w": 68,
-						"h": 41
+						"w": 258,
+						"h": 264
 					},
 					"spriteSourceSize": {
 						"x": 0,
 						"y": 0,
-						"w": 68,
-						"h": 41
+						"w": 258,
+						"h": 264
 					},
 					"frame": {
-						"x": 383,
-						"y": 99,
-						"w": 68,
-						"h": 41
+						"x": 1430,
+						"y": 1,
+						"w": 258,
+						"h": 264
 					}
 				},
 				{
-					"filename": "star-2",
+					"filename": "caja-apuesta",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
-						"w": 54,
-						"h": 59
+						"w": 500,
+						"h": 96
 					},
 					"spriteSourceSize": {
 						"x": 0,
 						"y": 0,
-						"w": 54,
-						"h": 59
+						"w": 500,
+						"h": 96
 					},
 					"frame": {
-						"x": 383,
-						"y": 142,
-						"w": 54,
-						"h": 59
+						"x": 1048,
+						"y": 349,
+						"w": 500,
+						"h": 96
 					}
 				},
 				{
-					"filename": "diamante",
+					"filename": "carta-dorso-disabled",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
-						"w": 53,
-						"h": 63
+						"w": 170,
+						"h": 239
 					},
 					"spriteSourceSize": {
 						"x": 0,
 						"y": 0,
-						"w": 53,
-						"h": 63
+						"w": 170,
+						"h": 239
 					},
 					"frame": {
-						"x": 439,
-						"y": 142,
-						"w": 53,
-						"h": 63
+						"x": 854,
+						"y": 397,
+						"w": 170,
+						"h": 239
 					}
 				},
 				{
-					"filename": "trebol",
+					"filename": "instrucciones",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
-						"w": 53,
-						"h": 56
+						"w": 360,
+						"h": 160
 					},
 					"spriteSourceSize": {
 						"x": 0,
 						"y": 0,
-						"w": 53,
-						"h": 56
+						"w": 360,
+						"h": 160
 					},
 					"frame": {
-						"x": 383,
-						"y": 203,
-						"w": 53,
-						"h": 56
+						"x": 1026,
+						"y": 447,
+						"w": 360,
+						"h": 160
 					}
 				},
 				{
-					"filename": "corazon",
+					"filename": "carta-dorso",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
-						"w": 53,
-						"h": 52
+						"w": 170,
+						"h": 239
 					},
 					"spriteSourceSize": {
 						"x": 0,
 						"y": 0,
-						"w": 53,
-						"h": 52
+						"w": 170,
+						"h": 239
 					},
 					"frame": {
-						"x": 438,
-						"y": 207,
-						"w": 53,
-						"h": 52
+						"x": 854,
+						"y": 638,
+						"w": 170,
+						"h": 239
+					}
+				},
+				{
+					"filename": "loading-logo-polla",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 380,
+						"h": 116
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 8,
+						"w": 369,
+						"h": 101
+					},
+					"frame": {
+						"x": 1026,
+						"y": 609,
+						"w": 369,
+						"h": 101
+					}
+				},
+				{
+					"filename": "saldo",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 374,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 374,
+						"h": 96
+					},
+					"frame": {
+						"x": 1026,
+						"y": 712,
+						"w": 374,
+						"h": 96
+					}
+				},
+				{
+					"filename": "tiempo",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 309,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 309,
+						"h": 96
+					},
+					"frame": {
+						"x": 1026,
+						"y": 810,
+						"w": 309,
+						"h": 96
+					}
+				},
+				{
+					"filename": "loading-logo-juega-responsable",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 231,
+						"h": 112
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 231,
+						"h": 112
+					},
+					"frame": {
+						"x": 1388,
+						"y": 447,
+						"w": 231,
+						"h": 112
+					}
+				},
+				{
+					"filename": "logo-polla",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 180,
+						"h": 180
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 180,
+						"h": 178
+					},
+					"frame": {
+						"x": 1550,
+						"y": 267,
+						"w": 180,
+						"h": 178
+					}
+				},
+				{
+					"filename": "estrella",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 180,
+						"h": 180
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 180,
+						"h": 180
+					},
+					"frame": {
+						"x": 1402,
+						"y": 561,
+						"w": 180,
+						"h": 180
+					}
+				},
+				{
+					"filename": "polla",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 200,
+						"h": 62
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 3,
+						"w": 195,
+						"h": 55
+					},
+					"frame": {
+						"x": 1402,
+						"y": 743,
+						"w": 195,
+						"h": 55
+					}
+				},
+				{
+					"filename": "bola-prendida",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 92,
+						"h": 92
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 92,
+						"h": 92
+					},
+					"frame": {
+						"x": 1621,
+						"y": 447,
+						"w": 92,
+						"h": 92
 					}
 				},
 				{
@@ -213,8 +381,8 @@
 						"h": 59
 					},
 					"frame": {
-						"x": 383,
-						"y": 261,
+						"x": 1690,
+						"y": 1,
 						"w": 52,
 						"h": 59
 					}
@@ -234,199 +402,10 @@
 						"h": 58
 					},
 					"frame": {
-						"x": 437,
-						"y": 261,
+						"x": 1690,
+						"y": 62,
 						"w": 52,
 						"h": 58
-					}
-				},
-				{
-					"filename": "saldo",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 374,
-						"h": 96
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 374,
-						"h": 96
-					},
-					"frame": {
-						"x": 1,
-						"y": 447,
-						"w": 374,
-						"h": 96
-					}
-				},
-				{
-					"filename": "caja-tabla-premios",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 360,
-						"h": 580
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 360,
-						"h": 580
-					},
-					"frame": {
-						"x": 1,
-						"y": 545,
-						"w": 360,
-						"h": 580
-					}
-				},
-				{
-					"filename": "instrucciones",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 360,
-						"h": 160
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 360,
-						"h": 160
-					},
-					"frame": {
-						"x": 1,
-						"y": 1127,
-						"w": 360,
-						"h": 160
-					}
-				},
-				{
-					"filename": "loading-logo-polla",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 380,
-						"h": 116
-					},
-					"spriteSourceSize": {
-						"x": 6,
-						"y": 8,
-						"w": 369,
-						"h": 101
-					},
-					"frame": {
-						"x": 377,
-						"y": 503,
-						"w": 369,
-						"h": 101
-					}
-				},
-				{
-					"filename": "luz",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 258,
-						"h": 264
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 258,
-						"h": 264
-					},
-					"frame": {
-						"x": 748,
-						"y": 503,
-						"w": 258,
-						"h": 264
-					}
-				},
-				{
-					"filename": "caja-premio",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 366,
-						"h": 204
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 366,
-						"h": 204
-					},
-					"frame": {
-						"x": 363,
-						"y": 606,
-						"w": 366,
-						"h": 204
-					}
-				},
-				{
-					"filename": "loading-logo-juega-responsable",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 231,
-						"h": 112
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 231,
-						"h": 112
-					},
-					"frame": {
-						"x": 731,
-						"y": 769,
-						"w": 231,
-						"h": 112
-					}
-				},
-				{
-					"filename": "tiempo",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 309,
-						"h": 96
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 309,
-						"h": 96
-					},
-					"frame": {
-						"x": 363,
-						"y": 812,
-						"w": 309,
-						"h": 96
-					}
-				},
-				{
-					"filename": "carta-dorso-disabled",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 170,
-						"h": 239
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 170,
-						"h": 239
-					},
-					"frame": {
-						"x": 363,
-						"y": 910,
-						"w": 170,
-						"h": 239
 					}
 				},
 				{
@@ -444,8 +423,8 @@
 						"h": 128
 					},
 					"frame": {
-						"x": 363,
-						"y": 1151,
+						"x": 1584,
+						"y": 561,
 						"w": 127,
 						"h": 128
 					}
@@ -465,31 +444,10 @@
 						"h": 127
 					},
 					"frame": {
-						"x": 492,
-						"y": 1151,
+						"x": 1599,
+						"y": 691,
 						"w": 128,
 						"h": 127
-					}
-				},
-				{
-					"filename": "carta-dorso",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 170,
-						"h": 239
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 170,
-						"h": 239
-					},
-					"frame": {
-						"x": 535,
-						"y": 910,
-						"w": 170,
-						"h": 239
 					}
 				},
 				{
@@ -507,73 +465,136 @@
 						"h": 62
 					},
 					"frame": {
-						"x": 622,
-						"y": 1151,
+						"x": 1402,
+						"y": 800,
 						"w": 128,
 						"h": 62
 					}
 				},
 				{
-					"filename": "polla",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 200,
-						"h": 62
-					},
-					"spriteSourceSize": {
-						"x": 3,
-						"y": 3,
-						"w": 195,
-						"h": 55
-					},
-					"frame": {
-						"x": 622,
-						"y": 1215,
-						"w": 195,
-						"h": 55
-					}
-				},
-				{
-					"filename": "estrella",
+					"filename": "diamante",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
-						"w": 180,
-						"h": 180
+						"w": 53,
+						"h": 63
 					},
 					"spriteSourceSize": {
 						"x": 0,
 						"y": 0,
-						"w": 180,
-						"h": 180
+						"w": 53,
+						"h": 63
 					},
 					"frame": {
-						"x": 819,
-						"y": 883,
-						"w": 180,
-						"h": 180
+						"x": 1430,
+						"y": 267,
+						"w": 53,
+						"h": 63
 					}
 				},
 				{
-					"filename": "logo-polla",
+					"filename": "star-2",
 					"rotated": false,
-					"trimmed": true,
+					"trimmed": false,
 					"sourceSize": {
-						"w": 180,
-						"h": 180
+						"w": 54,
+						"h": 59
 					},
 					"spriteSourceSize": {
 						"x": 0,
-						"y": 1,
-						"w": 180,
-						"h": 178
+						"y": 0,
+						"w": 54,
+						"h": 59
 					},
 					"frame": {
-						"x": 819,
-						"y": 1065,
-						"w": 180,
-						"h": 178
+						"x": 1337,
+						"y": 810,
+						"w": 54,
+						"h": 59
+					}
+				},
+				{
+					"filename": "trebol",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 53,
+						"h": 56
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 53,
+						"h": 56
+					},
+					"frame": {
+						"x": 1532,
+						"y": 800,
+						"w": 53,
+						"h": 56
+					}
+				},
+				{
+					"filename": "corazon",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 53,
+						"h": 52
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 53,
+						"h": 52
+					},
+					"frame": {
+						"x": 1485,
+						"y": 267,
+						"w": 53,
+						"h": 52
+					}
+				},
+				{
+					"filename": "star-1",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 68,
+						"h": 41
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 68,
+						"h": 41
+					},
+					"frame": {
+						"x": 1587,
+						"y": 820,
+						"w": 68,
+						"h": 41
+					}
+				},
+				{
+					"filename": "rain",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 17,
+						"h": 17
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 3,
+						"w": 14,
+						"h": 14
+					},
+					"frame": {
+						"x": 1026,
+						"y": 397,
+						"w": 14,
+						"h": 14
 					}
 				}
 			]
@@ -582,6 +603,6 @@
 	"meta": {
 		"app": "https://www.codeandweb.com/texturepacker",
 		"version": "3.0",
-		"smartupdate": "$TexturePacker:SmartUpdate:56cce34373ff4ef0a90728aa64cd16d0:d4769814ba02ebc47052ecbfe5076fad:2db50c4a79ebc1bcbd9597afe4e693ea$"
+		"smartupdate": "$TexturePacker:SmartUpdate:020a0e14511f00c2aed45dde94cf6fb9:e078424bad0da81281d2f540087c6871:2db50c4a79ebc1bcbd9597afe4e693ea$"
 	}
 }
