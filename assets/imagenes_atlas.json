@@ -4,8 +4,8 @@
 			"image": "imagenes_atlas.png",
 			"format": "RGBA8888",
 			"size": {
-				"w": 1743,
-				"h": 907
+				"w": 1900,
+				"h": 842
 			},
 			"scale": 1,
 			"frames": [
@@ -45,8 +45,8 @@
 						"h": 500
 					},
 					"frame": {
-						"x": 1,
-						"y": 397,
+						"x": 1048,
+						"y": 1,
 						"w": 489,
 						"h": 500
 					}
@@ -66,8 +66,8 @@
 						"h": 496
 					},
 					"frame": {
-						"x": 492,
-						"y": 397,
+						"x": 1539,
+						"y": 1,
 						"w": 360,
 						"h": 496
 					}
@@ -87,31 +87,10 @@
 						"h": 346
 					},
 					"frame": {
-						"x": 1048,
-						"y": 1,
+						"x": 1,
+						"y": 397,
 						"w": 380,
 						"h": 346
-					}
-				},
-				{
-					"filename": "luz",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 258,
-						"h": 264
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 258,
-						"h": 264
-					},
-					"frame": {
-						"x": 1430,
-						"y": 1,
-						"w": 258,
-						"h": 264
 					}
 				},
 				{
@@ -129,31 +108,10 @@
 						"h": 96
 					},
 					"frame": {
-						"x": 1048,
-						"y": 349,
+						"x": 1,
+						"y": 745,
 						"w": 500,
 						"h": 96
-					}
-				},
-				{
-					"filename": "carta-dorso-disabled",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 170,
-						"h": 239
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 170,
-						"h": 239
-					},
-					"frame": {
-						"x": 854,
-						"y": 397,
-						"w": 170,
-						"h": 239
 					}
 				},
 				{
@@ -171,31 +129,31 @@
 						"h": 160
 					},
 					"frame": {
-						"x": 1026,
-						"y": 447,
+						"x": 1539,
+						"y": 499,
 						"w": 360,
 						"h": 160
 					}
 				},
 				{
-					"filename": "carta-dorso",
+					"filename": "luz",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
-						"w": 170,
-						"h": 239
+						"w": 258,
+						"h": 264
 					},
 					"spriteSourceSize": {
 						"x": 0,
 						"y": 0,
-						"w": 170,
-						"h": 239
+						"w": 258,
+						"h": 264
 					},
 					"frame": {
-						"x": 854,
-						"y": 638,
-						"w": 170,
-						"h": 239
+						"x": 383,
+						"y": 397,
+						"w": 258,
+						"h": 264
 					}
 				},
 				{
@@ -213,8 +171,8 @@
 						"h": 101
 					},
 					"frame": {
-						"x": 1026,
-						"y": 609,
+						"x": 643,
+						"y": 397,
 						"w": 369,
 						"h": 101
 					}
@@ -234,52 +192,10 @@
 						"h": 96
 					},
 					"frame": {
-						"x": 1026,
-						"y": 712,
+						"x": 643,
+						"y": 500,
 						"w": 374,
 						"h": 96
-					}
-				},
-				{
-					"filename": "tiempo",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 309,
-						"h": 96
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 309,
-						"h": 96
-					},
-					"frame": {
-						"x": 1026,
-						"y": 810,
-						"w": 309,
-						"h": 96
-					}
-				},
-				{
-					"filename": "loading-logo-juega-responsable",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 231,
-						"h": 112
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 231,
-						"h": 112
-					},
-					"frame": {
-						"x": 1388,
-						"y": 447,
-						"w": 231,
-						"h": 112
 					}
 				},
 				{
@@ -297,10 +213,31 @@
 						"h": 178
 					},
 					"frame": {
-						"x": 1550,
-						"y": 267,
+						"x": 503,
+						"y": 663,
 						"w": 180,
 						"h": 178
+					}
+				},
+				{
+					"filename": "tiempo",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 309,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 309,
+						"h": 96
+					},
+					"frame": {
+						"x": 1019,
+						"y": 503,
+						"w": 309,
+						"h": 96
 					}
 				},
 				{
@@ -318,10 +255,73 @@
 						"h": 180
 					},
 					"frame": {
-						"x": 1402,
-						"y": 561,
+						"x": 685,
+						"y": 661,
 						"w": 180,
 						"h": 180
+					}
+				},
+				{
+					"filename": "carta-dorso-disabled",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 170,
+						"h": 239
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 170,
+						"h": 239
+					},
+					"frame": {
+						"x": 1330,
+						"y": 503,
+						"w": 170,
+						"h": 239
+					}
+				},
+				{
+					"filename": "loading-logo-juega-responsable",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 231,
+						"h": 112
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 231,
+						"h": 112
+					},
+					"frame": {
+						"x": 1502,
+						"y": 661,
+						"w": 231,
+						"h": 112
+					}
+				},
+				{
+					"filename": "fuego-brillante",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 157,
+						"h": 157
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 157,
+						"h": 157
+					},
+					"frame": {
+						"x": 1735,
+						"y": 661,
+						"w": 157,
+						"h": 157
 					}
 				},
 				{
@@ -339,73 +339,31 @@
 						"h": 55
 					},
 					"frame": {
-						"x": 1402,
-						"y": 743,
+						"x": 643,
+						"y": 598,
 						"w": 195,
 						"h": 55
 					}
 				},
 				{
-					"filename": "bola-prendida",
+					"filename": "carta-dorso",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
-						"w": 92,
-						"h": 92
+						"w": 170,
+						"h": 239
 					},
 					"spriteSourceSize": {
 						"x": 0,
 						"y": 0,
-						"w": 92,
-						"h": 92
+						"w": 170,
+						"h": 239
 					},
 					"frame": {
-						"x": 1621,
-						"y": 447,
-						"w": 92,
-						"h": 92
-					}
-				},
-				{
-					"filename": "pica",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 52,
-						"h": 59
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 52,
-						"h": 59
-					},
-					"frame": {
-						"x": 1690,
-						"y": 1,
-						"w": 52,
-						"h": 59
-					}
-				},
-				{
-					"filename": "star-3",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 52,
-						"h": 58
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 52,
-						"h": 58
-					},
-					"frame": {
-						"x": 1690,
-						"y": 62,
-						"w": 52,
-						"h": 58
+						"x": 867,
+						"y": 601,
+						"w": 170,
+						"h": 239
 					}
 				},
 				{
@@ -423,8 +381,8 @@
 						"h": 128
 					},
 					"frame": {
-						"x": 1584,
-						"y": 561,
+						"x": 1039,
+						"y": 601,
 						"w": 127,
 						"h": 128
 					}
@@ -444,8 +402,8 @@
 						"h": 127
 					},
 					"frame": {
-						"x": 1599,
-						"y": 691,
+						"x": 1168,
+						"y": 601,
 						"w": 128,
 						"h": 127
 					}
@@ -465,10 +423,31 @@
 						"h": 62
 					},
 					"frame": {
-						"x": 1402,
-						"y": 800,
+						"x": 1039,
+						"y": 731,
 						"w": 128,
 						"h": 62
+					}
+				},
+				{
+					"filename": "bola-prendida",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 92,
+						"h": 92
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 92,
+						"h": 92
+					},
+					"frame": {
+						"x": 1169,
+						"y": 730,
+						"w": 92,
+						"h": 92
 					}
 				},
 				{
@@ -486,8 +465,8 @@
 						"h": 63
 					},
 					"frame": {
-						"x": 1430,
-						"y": 267,
+						"x": 383,
+						"y": 663,
 						"w": 53,
 						"h": 63
 					}
@@ -507,52 +486,10 @@
 						"h": 59
 					},
 					"frame": {
-						"x": 1337,
-						"y": 810,
+						"x": 438,
+						"y": 663,
 						"w": 54,
 						"h": 59
-					}
-				},
-				{
-					"filename": "trebol",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 53,
-						"h": 56
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 53,
-						"h": 56
-					},
-					"frame": {
-						"x": 1532,
-						"y": 800,
-						"w": 53,
-						"h": 56
-					}
-				},
-				{
-					"filename": "corazon",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 53,
-						"h": 52
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 53,
-						"h": 52
-					},
-					"frame": {
-						"x": 1485,
-						"y": 267,
-						"w": 53,
-						"h": 52
 					}
 				},
 				{
@@ -570,10 +507,94 @@
 						"h": 41
 					},
 					"frame": {
-						"x": 1587,
-						"y": 820,
+						"x": 1039,
+						"y": 795,
 						"w": 68,
 						"h": 41
+					}
+				},
+				{
+					"filename": "pica",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 52,
+						"h": 59
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 52,
+						"h": 59
+					},
+					"frame": {
+						"x": 1263,
+						"y": 730,
+						"w": 52,
+						"h": 59
+					}
+				},
+				{
+					"filename": "corazon",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 53,
+						"h": 52
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 53,
+						"h": 52
+					},
+					"frame": {
+						"x": 1317,
+						"y": 744,
+						"w": 53,
+						"h": 52
+					}
+				},
+				{
+					"filename": "trebol",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 53,
+						"h": 56
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 53,
+						"h": 56
+					},
+					"frame": {
+						"x": 1372,
+						"y": 744,
+						"w": 53,
+						"h": 56
+					}
+				},
+				{
+					"filename": "star-3",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 52,
+						"h": 58
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 52,
+						"h": 58
+					},
+					"frame": {
+						"x": 1427,
+						"y": 744,
+						"w": 52,
+						"h": 58
 					}
 				},
 				{
@@ -591,7 +612,7 @@
 						"h": 14
 					},
 					"frame": {
-						"x": 1026,
+						"x": 1014,
 						"y": 397,
 						"w": 14,
 						"h": 14
@@ -603,6 +624,6 @@
 	"meta": {
 		"app": "https://www.codeandweb.com/texturepacker",
 		"version": "3.0",
-		"smartupdate": "$TexturePacker:SmartUpdate:020a0e14511f00c2aed45dde94cf6fb9:e078424bad0da81281d2f540087c6871:2db50c4a79ebc1bcbd9597afe4e693ea$"
+		"smartupdate": "$TexturePacker:SmartUpdate:43c82d26cc8e2a263d56604ef703f161:0845eb4f44d6dfddca2c8da8d36ca44a:2db50c4a79ebc1bcbd9597afe4e693ea$"
 	}
 }
